@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Main.css";
 import { assets } from "../../assets/assets";
+import { Context } from "../../context/Context";
 
 function Main() {
+  const {
+    onSent,
+    recentPrompt,
+    showResult,
+    loading,
+    resultData,
+    setInput,
+    input,
+  } = useContext(Context);
+
   return (
     <div className="main">
       <div className="nav">
@@ -36,15 +47,16 @@ function Main() {
         </div>
         <div className="main-bottom">
           <div className="search-box">
-            <input type="text" placeholder="Ask about Something..." />
+            <input type="text" onChange={(e) => setInput(e.target.value)} value={input} placeholder="Ask about Something..." />
             <div>
               <img src={assets.gallery_icon} alt="add-image" />
               <img src={assets.mic_icon} alt="voice" />
-              <img src={assets.send_icon} alt="send" />
+              <img onClick={() => onSent()} src={assets.send_icon} alt="send" onClick={() => onSent()} />
             </div>
           </div>
           <p className="bottom-info">
-            Gemini(Clone) may display inaccurate info, including about people, so double-check its response. Your privacy and Gemini App
+            Gemini(Clone) may display inaccurate info, including about people,
+            so double-check its response. Your privacy and Gemini App
           </p>
         </div>
       </div>
