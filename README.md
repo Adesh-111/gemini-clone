@@ -10,7 +10,11 @@
 Welcome to the Google Gemini AI App Clone! This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.
 
 <center>
-<video src=".\src\assets\Gemini github.mp4"  autoplay controls ></video>
+
+
+https://github.com/user-attachments/assets/29452458-ab19-492f-8922-02e802a23bdc
+
+
 </center>
 
 ## Key Features
