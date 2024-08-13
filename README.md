@@ -2,9 +2,16 @@
 
 # Google Gemini AI App Clone
 
+
+<img src="https://wakatime.com/badge/github/Adesh-111/gemini-clone.svg" alt="wakatime status" width="200px" >
+
 ## Overview
 
 Welcome to the Google Gemini AI App Clone! This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.
+
+<center>
+<video src=".\src\assets\Gemini github.mp4"  autoplay controls ></video>
+</center>
 
 ## Key Features
 
