@@ -84,7 +84,6 @@ function Main() {
                 onClick={() => onSent()}
                 src={assets.send_icon}
                 alt="send"
-                onClick={() => onSent()}
               />
             </div>
           </div>
